@@ -15,7 +15,6 @@ const Veggie = () => {
     );
     const data = await res.json();
     setVeggie(data.recipes);
-    console.log(data.recipes);
   };
 
   return (
